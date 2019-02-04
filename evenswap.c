@@ -1,7 +1,7 @@
 //swathi
 #include <stdio.h>
 #include<string.h>
-int main(void) {
+void main() {
 	char s[10],t;
 	int i,l;
 	scanf("%[^\n]s",s);
@@ -26,5 +26,4 @@ int main(void) {
              }
    	 printf("%s",s);
 	}
-	return 0;
 }
